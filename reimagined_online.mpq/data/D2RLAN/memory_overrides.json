@@ -1,0 +1,70 @@
+{
+  "MemoryConfigs": [
+    {
+      "Name": "Override Hellforge Drops (Normal Runes Table)",
+      "Description": "Forces normal Hellforge rune drops to XXX-XXX",
+      "Category": "Alteration",
+      "Address": "1857340",
+      "Length": 44,
+      "Type": "Hex",
+      "Values": "7230352072303620723037207230382072303920723130207231312072313220723133207231342072313520",
+      "OriginalValues": "7230312072303220723033207230342072303520723036207230372072303820723039207231302072313120",
+      "ModdedValues": "NO_DEFAULT_VALUES_MOD_SPECIFIC"
+    },
+    {
+      "Name": "Override Hellforge Drops (Nightmare Runes Table)",
+      "Description": "Forces nightmare Hellforge rune drops to XXX-XXX",
+      "Category": "Alteration",
+      "Address": "1857158",
+      "Length": 44,
+      "Type": "Hex",
+      "Values": "7231352072313620723137207231382072313920723230207232312072323220723233207232342072323520",
+      "OriginalValues": "7231322072313320723133207231352072313620723137207231382072313920723230207232312072323220",
+      "ModdedValues": "NO_DEFAULT_VALUES_MOD_SPECIFIC"
+    },
+    {
+      "Name": "Override Hellforge Drops (Hell Runes Table)",
+      "Description": "Forces hell Hellforge rune drops to XXX-XXX",
+      "Category": "Alteration",
+      "Address": "1857CE8",
+      "Length": 44,
+      "Type": "Hex",
+      "Values": "7232332072323420723235207232362072323720723238207232392072333020723331207233322072333320",
+      "OriginalValues": "7231352072313620723137207231382072313920723230207232312072323220723233207232342072323520",
+      "ModdedValues": "NO_DEFAULT_VALUES_MOD_SPECIFIC"
+    },
+    {
+      "Name": "Allows TC Drop Limit Increase",
+      "Description": "Jumps to an executable memory cave",
+      "Category": "Alteration",
+      "Address": "32CEB4",
+      "Length": 10,
+      "Type": "Hex",
+      "Values": "33C089442448440FB7CD",
+      "OriginalValues": "33C089442448440FB7CD",
+      "ModdedValues": "E90FA7E70090909090900"
+    },
+    {
+      "Name": "TC Drop Limit Increase",
+      "Description": "Execute a \u0027code cave\u0027 to set max drop amount to 50",
+      "Category": "Alteration",
+      "Address": "11A75C8",
+      "Length": 19,
+      "Type": "Hex",
+      "Values": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "ModdedValues": "33C0C744244832000000440FB7CDE9E35818FF"
+    },
+    {
+      "Name": "Auto-Collect Player Corpse",
+      "Description": "This will make the player automatically retrieve corpse when re-spawning in town (gold still dropped)",
+      "Category": "Alteration",
+      "Address": "3136B6",
+      "Length": 5,
+      "Type": "Hex",
+      "Values": "9090909090",
+      "OriginalValues": "E825C3FFFF",
+      "ModdedValues": "9090909090"
+    }
+  ]
+}
