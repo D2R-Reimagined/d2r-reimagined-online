@@ -1,0 +1,32 @@
+{
+    "name": "reimagined_online",
+    "savepath": "reimagined_online"
+    /*
+--My Mod Details--
+Mod Download: 
+Mod Config Download: 
+Mod Version: 3.0.9.B
+News 1 Title: "3.0.9.B Update"
+News 1 Message: "Follows the official 3.0.9 Reimagined update. Please refer to the official Reimagined Wiki for the patch notes. Fix Massive TZ drop issue"
+News 2 Title: "Reimagined Online with D2rLan"
+News 2 Message: "Few function Activation\nAuto Corpse Recovery-Automatically recovers your corpse upon death, with all items except gold remaining equipped.\nRune drops from the Hellforge will be expanded\nNormal-Eth Rune to Hel Rune\nNightmare-Hel Rune to Gul Rune\nHell-Mal Rune to Zod Rune"
+ 
+--General Options--
+Map Layouts: Disabled
+UI Themes: Disabled
+Customizations: Disabled
+Vault Access: Disabled
+
+--Additional Options--
+Item Icons: Disabled
+Runeword Sorting: Disabled
+HUD Display: Enabled
+Monster Stats Display: Enabled
+
+--Author Links--
+Discord: https://discord.gg/5c2GrFQReE
+Wiki: https://wiki.d2r-reimagined.com/
+
+*/
+
+}

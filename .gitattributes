@@ -1,0 +1,20 @@
+*.txt       -text
+*.json      -text
+*.lua       -text
+*.tbl       -text
+*.timelines -text
+
+*.bin binary
+*.sprite binary
+*.dc6 binary
+*.dcc binary
+*.dt1 binary
+*.ds1 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ogg binary
+*.wav binary
+*.mp4 binary
+*.zip binary
