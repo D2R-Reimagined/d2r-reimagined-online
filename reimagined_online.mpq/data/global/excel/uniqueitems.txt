@@ -401,12 +401,12 @@ Rime Facet	397	100	1		1	1	85	49	jew	jewel		3	5000								dmg-cold	3	24	38	pierce
 Burnt Facet	398	100	1		1	1	85	49	jew	jewel		3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	levelup-skill	Blaze	100	29																																		0
 Toxic Facet	399	100	1		1	1	85	49	jew	jewel		3	5000								pierce-pois		3	5	extra-pois		3	5	levelup-skill	Venom	100	23																																						0
 Hellfire Torch	400	100	1		1	1	110	75	cm2	charm		3	5000			flptrch	invtrch	item_gem	12	item_gem	allskills		2	2	all-stats		10	10	res-all		10	10	charm-property		2	2	ubertorch-property		1	1																														0
-dummy1																																																																						0
-dummy2																																																																						0
-dummy3																																																																						0
-dummy4																																																																						0
-dummy5																																																																						0
-dummy6																																																																						0
+																																																																						0
+																																																																						0
+																																																																						0
+																																																																						0
+																																																																						0
+																																																																						0
 Talonrage		0																																																																				0
 Auburn Fire	408	100	1		1	1	12	15	hax	hand axe		5	5000	cred	cred						dmg-min		10	15	dmg-max		35	45	dmg-fire		35	50	dmg-ltng		25	50	res-ltng		15	25	oskill_hide	Hidden Charm Passive	1	1																										0
 Gangrene Reaper	409	100	1		1	1	1	6	hax	hand axe		5	5000	cgrn			invaxe19				dmg%		100	150	dmg-pois	100	55	55	noheal		1	1	rep-dur	15			str		10	10	oskill_hide	Hidden Charm Passive	1	1																										0
@@ -1450,19 +1450,19 @@ Flame Rift2	1446	100	1	2	1		69	75	cm6	charm		3	5000	lred	lred						pierce-immuni
 Crack of the Heavens2	1447	100	1	2	1		69	75	cm6	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	mag%		14	25	gold%		20	55	extra-ltng		5	15																																		0
 Rotting Fissure2	1448	100	1	2	1		69	75	cm6	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	mag%		14	25	gold%		20	55	extra-pois		5	15																																		0
 Bone Break2	1449	100	1	2	1		69	75	cm6	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	mag%		14	25	gold%		20	55	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1																										0
-Black Cleft2	1450	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	mag%		14	25	gold%		20	55	allskills		2	2	pierce-mag		5	10	aura	428	1	1																										0
+Black Cleft2	1450	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	mag%		14	25	gold%		20	55	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1																										0
 Cold Rupture3	1451	100	1	2	1		69	75	cm6	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	extra-cold		5	15	pierce-cold		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Flame Rift3	1452	100	1	2	1		69	75	cm6	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	extra-fire		5	15	pierce-fire		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Crack of the Heavens3	1453	100	1	2	1		69	75	cm6	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	extra-ltng		5	15	pierce-ltng		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Rotting Fissure3	1454	100	1	2	1		69	75	cm6	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	extra-pois		5	15	pierce-pois		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Bone Break3	1455	100	1	2	1		69	75	cm6	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Black Cleft3	1456	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	allskills		4	4	pierce-mag		5	10	aura	428	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Black Cleft3	1456	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Defender's Bile	1457	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_poison				gethit-skill	Venom	5	40	extra-pois		20	25	dmg-pois	25	975	975	pierce-pois		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Guardian's Thunder	1458	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_lightning				gethit-skill	Static Field	5	40	extra-ltng		20	25	dmg-ltng		1	300	pierce-ltng		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Protector's Frost	1459	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_cold				gethit-skill	Korlics Fury	5	40	extra-cold		20	25	dmg-cold	100	50	200	pierce-cold		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Defender's Fire	1460	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_fire				gethit-skill	Enchant	5	40	extra-fire		20	25	dmg-fire		100	250	pierce-fire		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Protector's Stone	1461	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_physical				gethit-skill	Battle Orders	5	40	dmg%		100	150	dmg-norm		25	50	pierce-dmg		10	15	addxp		3	5	mag%		30	50	gold%		30	50	aura	429	1	1																		0
-Guardian's Light	1462	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_magic				gethit-skill	Weaken	5	40	allskills		1	3	dmg-mag		40	80	pierce-mag		10	15	addxp		3	5	mag%		30	50	gold%		30	50	aura	428	1	1																		0
+Guardian's Light	1462	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_magic				gethit-skill	Weaken	5	40	extra-mag		20	25	dmg-mag		40	80	pierce-mag		10	15	addxp		3	5	mag%		30	50	gold%		30	50	aura	428	1	1																		0
 Gheed's Wager	1463	100	1		1	1	70	71	utc	troll belt		3	5000	dgld	dgld						cast1		10	20	balance1		10	20	move1		10	20	ac%		90	150	pierce-mag		3	7	res-all		5	15	gold%		44	75																						0
 Unique Warlock Helm	1464	100	1		2	1	50	50	xsk	death mask		3	5000				invmsk				allskills		1	1	pierce-fire		5	8	pierce-mag		5	8	cast1		20	20	swing2		20	20	ac%		150	215	mana-kill		4	6																						0
 move1	1465	100	1		7	1	1	1	mo1	Amulet		5	5000	lgld			invamu2				move1		55	55																																														0

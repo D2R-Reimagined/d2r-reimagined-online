@@ -588,49 +588,7 @@
                             "level_id": 132
                         }
                     ]
-                },
-                {
-                    /* bosses and keys */
-                    "id": 6,
-                    "levels": [
-                        {
-                            /* countess tower 5 key of terror */
-                            "level_id": 25
-                        },
-                        {
-                            /* andariel cata 4 */
-                            "level_id": 37
-                        },
-                        {
-                            /* duriel */
-                            "level_id": 73
-                        },
-                        {
-                            /* summoner key of hate */
-                            "level_id": 74
-                        },
-                        {
-                            /* meph durance 3 */
-                            "level_id": 102
-                        },
-                        {
-                            /* diablo chaos sanctuary*/
-                            "level_id": 108
-                        },
-                        {
-                            /* Nith halls of vaught key of destruction */
-                            "level_id": 124
-                        },
-                        {
-                            /* aal wst3 waves */
-                            "level_id": 131
-                        },
-                        {
-                            /* baal throne */
-                            "level_id": 132
-                        }
-                    ]
-                }        
+                }      
             ]
         }
     ],
@@ -654,10 +612,6 @@
         {
             "name": "Act 5",
             "levels": [110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132]
-        },
-        {
-            "name": "Bosses & Keys",
-            "levels": [25,37,73,74,102,108,124,131,132]
         }
     ],
     "level_names": [
@@ -818,12 +772,6 @@
                 { "stat": 25, "value": [10, 80] },
                 { "stat": 31, "value": [25, 80] },
                 { "stat": 34, "value": [2, 15] },
-                { "stat": 35, "value": [2, 15] },
-                { "stat": 36, "value": [4, 15] },
-                { "stat": 39, "value": [5, 35] },
-                { "stat": 41, "value": [5, 35] },
-                { "stat": 43, "value": [5, 35] },
-                { "stat": 45, "value": [5, 35] },
                 { "stat": 48, "value": [3, 8] },
                 { "stat": 49, "value": [6, 14] },
                 { "stat": 50, "value": [3, 8] },
@@ -855,12 +803,6 @@
         { "id": 25, "name": "+%d%% Enhanced Damage" },
         { "id": 31, "name": "+%d Defense" },
         { "id": 34, "name": "Damage Reduced by %d" },
-        { "id": 35, "name": "Magic Damage Reduced by %d" },
-        { "id": 36, "name": "Physical Damage Reduced by %d%%" },
-        { "id": 39, "name": "Fire Resist +%d%%" },
-        { "id": 41, "name": "Lightning Resist +%d%%" },
-        { "id": 43, "name": "Cold Resist +%d%%" },
-        { "id": 45, "name": "Poison Resist +%d%%" },
         { "id": 48, "name": "+%d to Minimum Fire Damage" },
         { "id": 49, "name": "+%d to Maximum Fire Damage" },
         { "id": 50, "name": "+%d to Minimum Lightning Damage" },

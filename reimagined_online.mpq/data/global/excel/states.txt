@@ -188,35 +188,30 @@ cooldown	185																																																																				
 sharedstash	186																																																																						0
 hidedead	187																											1	1			1																																							0
 impale	188																																																																						0
-elementalcovenant	230					1																	1	1	1	1																	elementalcovenant							lightresist																					0
-monsterset1	231	3			1						1																																					fire_cast_2																1	362						0
-monsterset2	232	3			1						1																																					fire_cast_2																1	256						0
-monsterset3	233	3			1						1																																					fire_cast_2																1	40						0
-monsterset4	234	3			1						1																																					fire_cast_2																1	156						0
-carrionvine	235					1																																												hitpoints																					0
-charm_weight	236					1																																												mana_control																					0
-slam_state	237																																																	damagepercent																					0
-firegolemaura_state	238					1																																					aura_holyfire_front	aura_holyfire_back						firemindam												paladin_aura_holyfire									0
-mfpot1state	239																																										aura_fanatic							item_magicbonus	1																				0
-xppot1state	240																																										shrine_experience							item_addexperience	1																				0
-potionsunderfire	241																																										aura_resistfire							item_pierce_fire_immunity	1																				0
-potionsundercold	242																																										aura_resistcold							item_pierce_cold_immunity	1																				0
-potionsunderlightning	243																																										aura_resistlight							item_pierce_light_immunity	1																				0
-potionsunderpoison	244																																										convictionfront	convictionback						item_pierce_poison_immunity	1																				0
-potionsundermagic	245																																										aura_resistall_front							item_pierce_magic_immunity	1																				0
-potionsunderphysical	246																																										redemptionfront	spirit_of_barbs						item_pierce_damage_immunity	1																				0
-torch_weight	247					1																																												uber_control																					0
-soulstone_weight	248					1																																												uber_control																					0
-veng_elements	249					1																																																																	0
-polarbear	250	3			1	1				1	1		1	1																											1																10	50	255	255	255	druid_morph	druid_morph	1	428						0
-cowkingelite	251	3			1	1					1		1	1																											1																		255	255	255	druid_morph	druid_morph	1	752						0
-barb_ancient	252	3			1	1						1	1																														valkyrie_blue	rabiesplague_blue																											0
-kings_charisma	253											1																																				kingscharisma		skill_enchant					weap	cred															0
-titanscovenant	254					1							1																														titanscovenant							damagepercent																					0
-Armor_Yellow	284																																																						tors	lyel															0
-Armor_Purple	285																																																						tors	dpur															0
-Armor_Orange	286																																																						tors	oran															0
-magicconviction	287					1																																1																																	0
-magicconvicted	288					1																1	1	1	1													1												skill_conviction																					0
-physconviction	289					1																																1																																	0
-physconvicted	290					1																1	1	1	1													1												skill_conviction																					0
+elementalcovenant	189					1																	1	1	1	1																	elementalcovenant							lightresist																					0
+monsterset1	190	3			1						1																																					fire_cast_2																1	362						0
+monsterset2	191	3			1						1																																					fire_cast_2																1	256						0
+monsterset3	192	3			1						1																																					fire_cast_2																1	40						0
+monsterset4	193	3			1						1																																					fire_cast_2																1	156						0
+carrionvine	194					1																																												hitpoints																					0
+charm_weight	195					1																																												mana_control																					0
+slam_state	196																																																	damagepercent																					0
+firegolemaura_state	197					1																																					aura_holyfire_front	aura_holyfire_back						firemindam												paladin_aura_holyfire									0
+mfpot1state	198																																										aura_fanatic							item_magicbonus	1																				0
+xppot1state	199																																										shrine_experience							item_addexperience	1																				0
+potionsunderfire	200																																										aura_resistfire							item_pierce_fire_immunity	1																				0
+potionsundercold	201																																										aura_resistcold							item_pierce_cold_immunity	1																				0
+potionsunderlightning	202																																										aura_resistlight							item_pierce_light_immunity	1																				0
+potionsunderpoison	203																																										convictionfront	convictionback						item_pierce_poison_immunity	1																				0
+potionsundermagic	204																																										aura_resistall_front							item_pierce_magic_immunity	1																				0
+potionsunderphysical	205																																										redemptionfront	spirit_of_barbs						item_pierce_damage_immunity	1																				0
+torch_weight	206					1																																												uber_control																					0
+soulstone_weight	207					1																																												uber_control																					0
+veng_elements	208					1																																																																	0
+polarbear	209	3			1	1				1	1		1	1																											1																10	50	255	255	255	druid_morph	druid_morph	1	428						0
+cowkingelite	210	3			1	1					1		1	1																											1																		255	255	255	druid_morph	druid_morph	1	752						0
+barb_ancient	211	3			1	1						1	1																														valkyrie_blue	rabiesplague_blue																											0
+kings_charisma	212											1																																				kingscharisma		skill_enchant					weap	cred															0
+titanscovenant	213					1							1																														titanscovenant							damagepercent																					0
+magicconviction	214					1																																1																																	0
+physconviction	215					1																																1																																	0

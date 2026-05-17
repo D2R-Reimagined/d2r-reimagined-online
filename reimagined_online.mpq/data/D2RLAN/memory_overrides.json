@@ -1,5 +1,45 @@
 {
-  "MemoryConfigs": [
+    "Excluded Grail Items": [
+    "Amulet of the Viper",
+    "KhalimFlail",
+    "SuperKhalimFlail",
+    "Staff of Kings",
+    "Horadric Staff",
+    "Hell Forge Hammer"
+],
+    "MonsterStatsDisplay": true,
+    "HPRolloverMods": false,
+    "HPRollover%": 99,
+    "HPRolloverDifficulty": -1,
+    "SunderedMonUMods": true,
+    "SunderValue": 95,
+    "MinionEquality": false,
+    "MemoryConfigs": [
+    {
+      "Name": "Force Classic Whirlwind",
+      "Description": "Changes the WW BP calcs to use 1FPA attacks instead of 4FPA for max speed",
+      "Category": "Alteration",
+      "Address": "3748C6",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "EB",
+      "OriginalValues": "74",
+      "ModdedValues": "EB"
+    },     
+    {
+      "Name": "Disable Run Penalty for Defense",
+      "Description": "This will disable run penalties. The animation mode used for the check is invalid",
+      "Category": "Alteration",
+      "Addresses": [
+        "329F70",
+        "BCA5A0"
+      ],
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "255",
+      "OriginalValues": "3",
+      "ModdedValues": "255"
+    },            
     {
       "Name": "Override Hellforge Drops (Normal Runes Table)",
       "Description": "Forces normal Hellforge rune drops to XXX-XXX",
@@ -65,6 +105,6 @@
       "Values": "9090909090",
       "OriginalValues": "E825C3FFFF",
       "ModdedValues": "9090909090"
-    }
-  ]
+    }      
+]
 }
