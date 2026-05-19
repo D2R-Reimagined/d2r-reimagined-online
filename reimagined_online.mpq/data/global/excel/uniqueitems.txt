@@ -400,7 +400,7 @@ Thunder Facet	396	100	1		1	1	85	49	jew	jewel		3	5000								dmg-ltng		1	74	pierc
 Rime Facet	397	100	1		1	1	85	49	jew	jewel		3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	levelup-skill	Frost Nova	100	43																																		0
 Burnt Facet	398	100	1		1	1	85	49	jew	jewel		3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	levelup-skill	Blaze	100	29																																		0
 Toxic Facet	399	100	1		1	1	85	49	jew	jewel		3	5000								pierce-pois		3	5	extra-pois		3	5	levelup-skill	Venom	100	23																																						0
-Hellfire Torch	400	100	1		1	1	110	75	cm2	charm		3	5000			flptrch	invtrch	item_gem	12	item_gem	allskills		2	2	all-stats		10	10	res-all		10	10	charm-property		2	2	ubertorch-property		1	1																														0
+Hellfire Torch	400	100	1		1		75	75	cm7	charm		3	5000			flptrch	invtrch	item_gem	12	item_gem	allskills		2	2	all-stats		10	10	res-all		10	10	charm-property		2	2	ubertorch-property		1	1																														0
 																																																																						0
 																																																																						0
 																																																																						0
@@ -1439,24 +1439,24 @@ The Seventh Pact	1435	100																																																							
 The Hellbound Lexicon	1436	100																																																																				0
 Harrogaths Last Stand	1437	100	1		1	1	85	92	7fb	colossus sword		5	5000				harrogaths_last_stand				dmg%		300	400	oskill	Concentrate	10	10	pierce-dmg		15	25	dmg/lvl	14			kill-skill	Quickness	5	10	swing1		30	50	oskill	Melee Mastery	5	5	ease		50	50	oskill_hide	Hidden Charm Passive	1	1														0
 The Thief's Choker	1438	100	1		2	1	80	85	amu	amulet		5	5000				the_thiefs_choker				skilltab	18	1	2	swing1		15	20	dex%		10	20	extra_traps		1	1	pierce-elem		5	10	res-all		-20	-30																										0
-Cold Rupture	1439	100	1	2	1		69	75	cm6	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-50	-50	charm-property		3	3																																						0
-Flame Rift	1440	100	1	2	1		69	75	cm6	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-50	-50	charm-property		3	3																																						0
-Crack of the Heavens	1441	100	1	2	1		69	75	cm6	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-50	-50	charm-property		3	3																																						0
-Rotting Fissure	1442	100	1	2	1		69	75	cm6	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-50	-50	charm-property		3	3																																						0
-Bone Break	1443	100	1	2	1		69	75	cm6	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-10	-10	charm-property		3	3																																						0
-Black Cleft	1444	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-30	-30	charm-property		3	3																																						0
-Cold Rupture2	1445	100	1	2	1		69	75	cm6	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	mag%		14	25	gold%		20	55	extra-cold		5	15																																		0
-Flame Rift2	1446	100	1	2	1		69	75	cm6	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	mag%		14	25	gold%		20	55	extra-fire		5	15																																		0
-Crack of the Heavens2	1447	100	1	2	1		69	75	cm6	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	mag%		14	25	gold%		20	55	extra-ltng		5	15																																		0
-Rotting Fissure2	1448	100	1	2	1		69	75	cm6	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	mag%		14	25	gold%		20	55	extra-pois		5	15																																		0
-Bone Break2	1449	100	1	2	1		69	75	cm6	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	mag%		14	25	gold%		20	55	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1																										0
-Black Cleft2	1450	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	mag%		14	25	gold%		20	55	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1																										0
-Cold Rupture3	1451	100	1	2	1		69	75	cm6	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	extra-cold		5	15	pierce-cold		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Flame Rift3	1452	100	1	2	1		69	75	cm6	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	extra-fire		5	15	pierce-fire		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Crack of the Heavens3	1453	100	1	2	1		69	75	cm6	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	extra-ltng		5	15	pierce-ltng		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Rotting Fissure3	1454	100	1	2	1		69	75	cm6	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	extra-pois		5	15	pierce-pois		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Bone Break3	1455	100	1	2	1		69	75	cm6	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
-Black Cleft3	1456	100	1	2	1		69	75	cm6	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Cold Rupture	1439	100	1	2	1		69	75	cm8	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-50	-50	charm-property		3	3																																						0
+Flame Rift	1440	100	1	2	1		69	75	cm8	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-50	-50	charm-property		3	3																																						0
+Crack of the Heavens	1441	100	1	2	1		69	75	cm8	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-50	-50	charm-property		3	3																																						0
+Rotting Fissure	1442	100	1	2	1		69	75	cm8	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-50	-50	charm-property		3	3																																						0
+Bone Break	1443	100	1	2	1		69	75	cm8	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-10	-10	charm-property		3	3																																						0
+Black Cleft	1444	100	1	2	1		69	75	cm8	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-30	-30	charm-property		3	3																																						0
+Cold Rupture2	1445	100	1	2	1		69	75	cm9	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	mag%		14	25	gold%		20	55	extra-cold		5	15																																		0
+Flame Rift2	1446	100	1	2	1		69	75	cm9	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	mag%		14	25	gold%		20	55	extra-fire		5	15																																		0
+Crack of the Heavens2	1447	100	1	2	1		69	75	cm9	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	mag%		14	25	gold%		20	55	extra-ltng		5	15																																		0
+Rotting Fissure2	1448	100	1	2	1		69	75	cm9	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	mag%		14	25	gold%		20	55	extra-pois		5	15																																		0
+Bone Break2	1449	100	1	2	1		69	75	cm9	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	mag%		14	25	gold%		20	55	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1																										0
+Black Cleft2	1450	100	1	2	1		69	75	cm9	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	mag%		14	25	gold%		20	55	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1																										0
+Cold Rupture3	1451	100	1	2	1		69	75	cm9	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	extra-cold		5	15	pierce-cold		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Flame Rift3	1452	100	1	2	1		69	75	cm9	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	extra-fire		5	15	pierce-fire		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Crack of the Heavens3	1453	100	1	2	1		69	75	cm9	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	extra-ltng		5	15	pierce-ltng		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Rotting Fissure3	1454	100	1	2	1		69	75	cm9	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	extra-pois		5	15	pierce-pois		5	10	mag%		14	25	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Bone Break3	1455	100	1	2	1		69	75	cm9	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	dmg%		75	100	pierce-dmg		5	10	aura	429	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
+Black Cleft3	1456	100	1	2	1		69	75	cm9	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	extra-mag		5	15	pierce-mag		5	10	aura	428	1	1	gold%		20	55	hp		10	65	mana		10	75	move1		5	10	balance1		12	24	all-stats		3	8	red-mag		5	10	red-dmg		5	10		0
 Defender's Bile	1457	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_poison				gethit-skill	Venom	5	40	extra-pois		20	25	dmg-pois	25	975	975	pierce-pois		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Guardian's Thunder	1458	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_lightning				gethit-skill	Static Field	5	40	extra-ltng		20	25	dmg-ltng		1	300	pierce-ltng		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0
 Protector's Frost	1459	100	1	2	1		69	75	cjw	jewel		3	5000				fragment_cold				gethit-skill	Korlics Fury	5	40	extra-cold		20	25	dmg-cold	100	50	200	pierce-cold		10	15	addxp		3	5	mag%		30	50	gold%		30	50																						0

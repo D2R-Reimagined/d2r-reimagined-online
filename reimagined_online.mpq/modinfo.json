@@ -5,9 +5,9 @@
 --My Mod Details--
 Mod Download: https://github.com/D2R-Reimagined/d2r-reimagined-online/archive/refs/heads/main.zip
 Mod Config Download: https://github.com/D2R-Reimagined/d2r-reimagined-online/raw/refs/heads/main/reimagined_online.mpq/modinfo.json
-Mod Version: 3.0.9.E
-News 1 Title: "3.0.9.E Update"
-News 1 Message: "Modified some items to ensure +%magic skill damage functions correctly. Also, fixed an issue where the newly added Warlock Helm visual was not visible. Additionally, adjusted the Sunder Charm so that resistances are set to 95 when immunity is broken."
+Mod Version: 3.0.9.F
+News 1 Title: "3.0.9.F Update"
+News 1 Message: "Fix Hellfire item code and add reroll random 3 sunder charm recipe"
 News 2 Title: "Reimagined Online with D2rLan"
 News 2 Message: "Few function Activation\nAuto Corpse Recovery-Automatically recovers your corpse upon death, with all items except gold remaining equipped.\nRune drops from the Hellforge will be expanded\nNormal-Eth Rune to Hel Rune\nNightmare-Hel Rune to Gul Rune\nHell-Mal Rune to Zod Rune"
  
