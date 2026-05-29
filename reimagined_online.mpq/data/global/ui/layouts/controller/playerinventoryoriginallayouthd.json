@@ -1,218 +1,423 @@
 {
     "basedOn": "PlayerInventoryOriginalLayoutHD.json",
-    "type": "PlayerInventoryPanel", "name": "PlayerInventoryOriginalLayout",
+    "type": "PlayerInventoryPanel",
+    "name": "PlayerInventoryOriginalLayout",
     "fields": {
-        "anchor": {"x":0.50},
+        "anchor": {
+            "x": 0.5
+        },
         "rect": {
             "x": 0,
             "y": -740,
             "width": 0,
             "height": 0
         },
+        "defaultWidget": "grid"
     },
     "children": [
         {
-            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "type": "ClickCatcherWidget",
+            "name": "click_catcher",
             "fields": {
-                "rect": { "x": 0, "y": 0, "width": 0, "height": 0 },
+                "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
                 "fitToParent": true
             }
         },
         {
-            "type": "ImageWidget", "name": "background",
+            "type": "ImageWidget",
+            "name": "background",
             "fields": {
-                "anchor": { "x": 0, "y": 0 },
-                "rect":{"x":198, "y":38},
-                "filename": "Controller/Panel/InventoryPanel/V2/InventoryBG_Edit",
-            },
-        },
-
-        {
-            "type": "TextBoxWidget", "name": "gold_amount",
-            "fields": {
-                "rect": { "x": 269, "y": 1733, "width": 257, "height": 48 },
+                "anchor": {
+                    "x": 0,
+                    "y": 0
+                },
+                "rect": {
+                    "x": 198,
+                    "y": 38
+                },
+                "filename": "Controller/Panel/InventoryPanel/V2/InventoryBG_Classic_Expanded"
             }
         },
         {
-            "type": "ButtonWidget", "name": "gold_button",
+            "type": "TextBoxWidget",
+            "name": "gold_amount",
             "fields": {
-                "rect": { "x": 229, "y": 1733, "width": 317, "height": 44 },
+                "rect": {
+                    "x": 570,
+                    "y": 110,
+                    "width": 257,
+                    "height": 48
+                }
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "gold_button",
+            "fields": {
+                "rect": {
+                    "x": 514,
+                    "y": 113,
+                    "width": 317,
+                    "height": 44
+                },
                 "filename": "Controller/Panel/Stash/V2/Button_Small",
                 "focusIndicatorFilename": "Controller/HoverImages/GoldButton_Hover",
-                "focusIndicatorOffset": { "x": -10, "y": 0 },
+                "focusIndicatorOffset": {
+                    "x": -10,
+                    "y": 0
+                },
                 "navigation": {
-                    "left": { "panelBoundary": true },
-                    "up": { "name": "grid" },
+                    "left": {
+                        "panelBoundary": 1
+                    },
+                    "up": {
+                        "panelBoundary": 1
+                    },
+                    "down": {
+                        "name": "slot_head"
+                    }
                 },
                 "buttonLegendAction": "select",
                 "buttonLegendString": "@strGoldDrop"
-            },
+            }
         },
         {
-            "type": "InventoryGridWidget", "name": "grid",
+            "type": "InventoryGridWidget",
+            "name": "grid",
             "fields": {
-                "rect": { "x": 216, "y": 914},
+                "rect": {
+                    "x": 252,
+                    "y": 704
+                },
                 "gemSocketFilename": "PANEL/gemsocket",
                 "navigation": {
-                    "left": { "panelBoundary": true },
-                    "up": { "name": "slot_belt" },
-                    "down": { "name": "gold_button" },
+                    "left": {
+                        "panelBoundary": 1
+                    },
+                    "up": {
+                        "name": "slot_belt"
+                    },
+                    "down": {
+                        "panelBoundary": 1
+                    }
                 },
-            },
+                "cellCount": {
+                    "x": 13,
+                    "y": 11
+                },
+                "cellSize": "$ItemCellSize"
+            }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_head",
+            "type": "InventorySlotWidget",
+            "name": "slot_head",
             "fields": {
-                "rect": { "x": 607, "y": 99, "width": 196, "height": 196 },
+                "rect": {
+                    "x": 536,
+                    "y": 235,
+                    "width": 196,
+                    "height": 196
+                },
                 "gemSocketFilename": "PANEL/gemsocket",
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_HeadArmor",
                 "navigation": {
-                    "left": { "name": "slot_right_arm" },
-                    "right": { "name": "slot_neck" },
-                    "down": { "name": "slot_torso" },
-                },
+                    "left": {
+                        "name": "slot_right_arm"
+                    },
+                    "right": {
+                        "name": "slot_neck"
+                    },
+                    "down": {
+                        "name": "slot_torso"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_neck",
+            "type": "InventorySlotWidget",
+            "name": "slot_neck",
             "fields": {
-                "rect": { "x": 845, "y": 268, "width": 98, "height": 98 },
+                "rect": {
+                    "x": 1016,
+                    "y": 209,
+                    "width": 98,
+                    "height": 98
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Amulet",
                 "navigation": {
-                    "left": { "name": "slot_head" },
-                    "right": { "name": "slot_left_arm" },
-                    "down": { "name": "slot_left_hand" },
-                },
+                    "left": {
+                        "name": "slot_head"
+                    },
+                    "right": {
+                        "name": "slot_left_arm"
+                    },
+                    "down": {
+                        "name": "slot_left_hand"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_torso",
+            "type": "InventorySlotWidget",
+            "name": "slot_torso",
             "fields": {
-                "rect": { "x": 609, "y": 342, "width": 196, "height": 294 },
+                "rect": {
+                    "x": 781,
+                    "y": 237,
+                    "width": 196,
+                    "height": 294
+                },
                 "gemSocketFilename": "PANEL/gemsocket",
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_ChestArmor",
                 "navigation": {
-                    "left": { "name": "slot_right_arm" },
-                    "right": { "name": "slot_left_arm" },
-                    "up": { "name": "slot_head" },
-                    "down": { "name": "slot_belt" },
-                },
+                    "left": {
+                        "name": "slot_right_arm"
+                    },
+                    "right": {
+                        "name": "slot_left_arm"
+                    },
+                    "up": {
+                        "name": "slot_head"
+                    },
+                    "down": {
+                        "name": "slot_belt"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_right_arm",
+            "type": "InventorySlotWidget",
+            "name": "slot_right_arm",
             "fields": {
-                "rect": { "x": 235, "y": 102, "width": 196, "height": 392 },
+                "rect": {
+                    "x": 293,
+                    "y": 281,
+                    "width": 196,
+                    "height": 392
+                },
                 "gemSocketFilename": "PANEL/gemsocket",
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Weapon",
                 "navigation": {
-                    "left": { "panelBoundary": true },
-                    "right": { "name": "slot_torso" },
-                    "down": { "name": "slot_gloves" },
-                },
+                    "left": {
+                        "panelBoundary": true
+                    },
+                    "right": {
+                        "name": "slot_torso"
+                    },
+                    "down": {
+                        "name": "slot_gloves"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_left_arm",
+            "type": "InventorySlotWidget",
+            "name": "slot_left_arm",
             "fields": {
-                "rect": { "x": 988, "y": 102, "width": 196, "height": 392 },
+                "rect": {
+                    "x": 1285,
+                    "y": 281,
+                    "width": 196,
+                    "height": 392
+                },
                 "gemSocketFilename": "PANEL/gemsocket",
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Weapon",
                 "navigation": {
-                    "left": { "name": "slot_torso" },
-                    "down": { "name": "slot_feet" },
-                },
+                    "left": {
+                        "name": "slot_torso"
+                    },
+                    "down": {
+                        "name": "slot_feet"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_right_hand",
+            "type": "InventorySlotWidget",
+            "name": "slot_right_hand",
             "fields": {
-                "rect": { "x": 471, "y": 684, "width": 98, "height": 98 },
+                "rect": {
+                    "x": 1017,
+                    "y": 341,
+                    "width": 98,
+                    "height": 98
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Ring",
                 "navigation": {
-                    "left": { "name": "slot_gloves" },
-                    "right": { "name": "slot_belt" },
-                    "down": { "name": "grid" },
-                },
+                    "left": {
+                        "name": "slot_gloves"
+                    },
+                    "right": {
+                        "name": "slot_belt"
+                    },
+                    "down": {
+                        "name": "grid"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_left_hand",
+            "type": "InventorySlotWidget",
+            "name": "slot_left_hand",
             "fields": {
-                "rect": { "x": 846, "y": 684, "width": 98, "height": 98},
+                "rect": {
+                    "x": 1151,
+                    "y": 341,
+                    "width": 98,
+                    "height": 98
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Ring",
                 "navigation": {
-                    "left": { "name": "slot_belt" },
-                    "right": { "name": "slot_feet" },
-                    "up": { "name": "slot_neck" },
-                    "down": { "name": "grid" },
-                },
+                    "left": {
+                        "name": "slot_belt"
+                    },
+                    "right": {
+                        "name": "slot_feet"
+                    },
+                    "up": {
+                        "name": "slot_neck"
+                    },
+                    "down": {
+                        "name": "grid"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_belt",
+            "type": "InventorySlotWidget",
+            "name": "slot_belt",
             "fields": {
-                "rect": { "x": 609, "y": 684, "width": 196, "height": 98 },
+                "rect": {
+                    "x": 781,
+                    "y": 571,
+                    "width": 196,
+                    "height": 98
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Belt",
                 "navigation": {
-                    "left": { "name": "slot_right_hand" },
-                    "right": { "name": "slot_left_hand" },
-                    "up": { "name": "slot_torso" },
-                    "down": { "name": "grid" },
-                },
+                    "left": {
+                        "name": "slot_right_hand"
+                    },
+                    "right": {
+                        "name": "slot_left_hand"
+                    },
+                    "up": {
+                        "name": "slot_torso"
+                    },
+                    "down": {
+                        "name": "grid"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_feet",
+            "type": "InventorySlotWidget",
+            "name": "slot_feet",
             "fields": {
-                "rect": { "x": 988, "y": 587, "width": 196, "height": 196 },
+                "rect": {
+                    "x": 1032,
+                    "y": 475,
+                    "width": 196,
+                    "height": 196
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Boots",
                 "navigation": {
-                    "left": { "name": "slot_left_hand" },
-                    "up": { "name": "slot_left_arm" },
-                    "down": { "name": "grid" },
-                },
+                    "left": {
+                        "name": "slot_left_hand"
+                    },
+                    "up": {
+                        "name": "slot_left_arm"
+                    },
+                    "down": {
+                        "name": "grid"
+                    }
+                }
             }
         },
         {
-            "type": "InventorySlotWidget", "name": "slot_gloves",
+            "type": "InventorySlotWidget",
+            "name": "slot_gloves",
             "fields": {
-                "rect": { "x": 234, "y": 587, "width": 196, "height": 196 },
+                "rect": {
+                    "x": 538,
+                    "y": 476,
+                    "width": 196,
+                    "height": 196
+                },
                 "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Glove",
                 "navigation": {
-                    "left": { "panelBoundary": true },
-                    "right": { "name": "slot_right_hand" },
-                    "up": { "name": "slot_right_arm" },
-                    "down": { "name": "grid" },
-                },
+                    "left": {
+                        "panelBoundary": true
+                    },
+                    "right": {
+                        "name": "slot_right_hand"
+                    },
+                    "up": {
+                        "name": "slot_right_arm"
+                    },
+                    "down": {
+                        "name": "grid"
+                    }
+                }
             }
         },
         {
-            "type": "BeltWidget", "name": "Belt",
+            "type": "BeltWidget",
+            "name": "Belt",
             "fields": {
-                "rect": { "x": 455, "y": 804 },
+                "rect": {
+                    "x": 1002,
+                    "y": 72
+                },
                 "poppedRowFilename": "Controller/Panel/InventoryPanel/V2/belt_popped_row_controller",
                 "poppedCapFilename": "Controller/Panel/InventoryPanel/V2/belt_popped_cap_controller",
-                "cellOffsetInRow": { "x": 0, "y": 5 },
-                "itemOffsetInCell": { "x": 12, "y": -3 },
-                "cellPadding": { "x": 31, "y": 15 },
+                "cellOffsetInRow": {
+                    "x": 0,
+                    "y": 5
+                },
+                "itemOffsetInCell": {
+                    "x": 12,
+                    "y": 2
+                },
+                "cellPadding": {
+                    "x": 31,
+                    "y": 15
+                },
                 "cellSize": "$ItemCellSize",
-                "controllerDefaultItemTransparency": 0.0,
-                "controllerColumnDefaultItems": [ "healthPotion", "manaPotion", "rejuvinationPotion", "townPortalScroll" ],
-                
+                "controllerDefaultItemTransparency": 0,
+                "controllerColumnDefaultItems": [
+                    "healthPotion",
+                    "manaPotion",
+                    "rejuvinationPotion",
+                    "townPortalScroll"
+                ]
             },
-             "children": [
+            "children": [
                 {
-                    "type": "TextBoxWidget", "name": "HotkeyLabelTemplate",
+                    "type": "TextBoxWidget",
+                    "name": "HotkeyLabelTemplate",
                     "fields": {
-                        "rect": { "x": 18, "y": 8, "width": 98, "height": 98 },
+                        "rect": {
+                            "x": 12,
+                            "y": 35,
+                            "width": 98,
+                            "height": 98
+                        },
                         "style": {
                             "pointSize": "$MediumFontSize",
-                            "alignment": { "h": "center", "v": "bottom" },
+                            "alignment": {
+                                "h": "center",
+                                "v": "bottom"
+                            }
                         }
                     }
-                },
+                }
             ]
-        },
+        }
     ]
 }

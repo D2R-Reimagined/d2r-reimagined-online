@@ -569,5 +569,8 @@
     "JoinGameRect": { "x": 825, "y": 105 },
     "JoinGameNarrowRect": { "x": 455, "y": 80 },
     "LadderRect": { "x": 1210, "y": 105 },
-    "LadderNarrowRect": { "x": 840, "y": 80 }
+    "LadderNarrowRect": { "x": 840, "y": 80 },
+    "RightPanelRect_ExpandedInventory": {"x":-1614,"y":-856,"width":1382,"height":1800},
+    "PanelClickCatcherRect_ExpandedInventory": {"x":0,"y":0,"width":1162,"height":1800},
+    "RightHingeRect_ExpandedInventory": {"x":1316,"y":630},
 }
