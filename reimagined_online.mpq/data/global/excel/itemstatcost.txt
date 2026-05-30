@@ -430,3 +430,4 @@ extra_skelewarriors	434		1	16														16	10	16	10																298	19		ex
 extra_skelemages	435		1	16														16	10	16	10																298	19		extra_skele_mages	extra_skele_mages										0
 item_aura_display	436		1								1							7	0	5	0	9															159	16	0	ModitemAura	ModitemAura									2	0
 passive_dmg_pierce	437		1	9												2812		8	0	8	0																88	19		ModStrDamPierce	ModStrDamPierce									2	0
+extra_grizzly_bears	438		1	16														16	10	16	10																298	19		extra_grizzly_bears	extra_grizzly_bears										0
