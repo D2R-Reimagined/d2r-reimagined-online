@@ -513,7 +513,7 @@ Zeus's2	+#% to Lightning Skill Damage	100	1	1	77		77				2	209	extra-ltng		10	12	
 Manticore's2	+#% to Poison Skill Damage	100	1	1	33		33				2	209	extra-pois		3	5									dgrn	wand	staf	helm										0	0
 Manticore's2	+#% to Poison Skill Damage	100	1	1	55		55				2	209	extra-pois		6	9									dgrn	wand	staf	helm										0	0
 Manticore's2	+#% to Poison Skill Damage	100	1	1	77		77				2	209	extra-pois		10	12									dgrn	wand	staf											0	0
-Charged1	Magic Arrow	100	1	1	1	12	1		ama	1	1	44	charged	6	300	1										miss	abow	glov										0	0
+Charged1	Glacial Burst Sentry	100	1	1	1	12	1		ama	1	1	44	charged	6	300	1										miss	abow	glov										0	0
 Charged1	Magic Arrow	100	1	1	8	25	10		ama	1	1	44	charged	6	300	10										miss	abow	glov										0	0
 Charged1	Fire Arrow	100	1	1	1	18	1		ama	1	1	44	charged	7	300	1										miss	abow	glov										0	0
 Charged1	Fire Arrow	100	1	1	12	30	12		ama	1	1	44	charged	7	300	11										miss	abow	glov										0	0
