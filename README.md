@@ -80,6 +80,10 @@ The current compatibility build is based on the foundation made possible by his 
 
 Thank you, Ben.
 
+The added 13x11 inventory in this build was created by expanding and modifying olegbl's original 13x8 inventory sprites and related files, with permission, under the MIT License.
+
+The original author is not responsible for this modified version and provides no warranty or support for it.
+
 ## Disclaimer
 
 This repository is a separate compatibility project for D2RLAN and TCP/IP multiplayer. It is not an official branch, official release, or officially supported version of D2R Reimagined.
