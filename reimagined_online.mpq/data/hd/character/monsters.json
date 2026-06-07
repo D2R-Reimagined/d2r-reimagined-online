@@ -731,5 +731,8 @@
     "greenwidow": "arach1",
     "zombie_cf": "zombie1",
     "glacialburstsentry": "chargeboltsentry",
-    "snowlashsentry": "chargeboltsentry"
+    "snowlashsentry": "chargeboltsentry",
+    "chargecow1": "hellbovine",
+    "chargecow2": "hellbovine",
+    "chargecow3": "hellbovine"    
 }

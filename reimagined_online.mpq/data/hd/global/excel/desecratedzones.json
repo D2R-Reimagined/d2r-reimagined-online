@@ -488,7 +488,11 @@
                         {
                             /* Moo Moo Farm */
                             "level_id": 39
-                        }
+                        },
+                        {
+                            /* Moo Moo Farm */
+                            "level_id": 138
+                        }                        
                     ]
                 },
                 {
@@ -607,7 +611,7 @@
         },
         {
             "name": "Act 4 & Cows",
-            "levels": [104,105,106,107,108,39]
+            "levels": [104,105,106,107,108,39,138]
         },
         {
             "name": "Act 5",
@@ -751,7 +755,8 @@
         { "id": 133, "name": "Matron's Den" },
         { "id": 134, "name": "Forgotten Sands" },
         { "id": 135, "name": "Furnace of Pain" },
-        { "id": 136, "name": "Tristram 2" }
+        { "id": 136, "name": "Tristram 2" },
+        { "id": 138, "name": "Moo Moo Maze" }
     ],
     "stat_adjustments": [ 
         {
