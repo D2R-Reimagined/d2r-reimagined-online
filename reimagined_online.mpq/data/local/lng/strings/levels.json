@@ -7172,5 +7172,56 @@
         "ptBR": "Entrando no Cume Colossal",
         "ruRU": "Вершина колосса",
         "zhCN": "进入巨像之巅"
-    }
+    },
+    {
+        "id": 54000,
+        "Key": "Moo Moo Maze",
+        "enUS": "The Secret Cow Maze",
+        "zhTW": "秘密乳牛迷宮",
+        "deDE": "Das Geheime Kuhlabyrinth",
+        "esES": "El Laberinto Secreto de las Vacas",
+        "frFR": "Le labyrinthe secret des vaches",
+        "itIT": "Il Labirinto Bovino Segreto",
+        "koKR": "음메음메 미로",
+        "plPL": "Sekretny krowi labirynt",
+        "esMX": "El Laberinto Secreto de la Vaca",
+        "jaJP": "秘密のモーモー迷宮",
+        "ptBR": "O Labirinto Secreto da Vaca",
+        "ruRU": "Секретный коровий лабиринт",
+        "zhCN": "神秘的奶牛迷宫"
+    },
+    {
+        "id": 54001,
+        "Key": "To The Moo Moo Maze",
+        "enUS": "To The Secret Cow Maze",
+        "zhTW": "前往秘密乳牛迷宮",
+        "deDE": "Zum Geheimen Kuhlabyrinth",
+        "esES": "Al Laberinto Secreto de las Vacas",
+        "frFR": "Vers le labyrinthe secret des vaches",
+        "itIT": "Verso il Labirinto Bovino Segreto",
+        "koKR": "음메음메 미로로 이동",
+        "plPL": "Do Sekretnego krowiego labiryntu",
+        "esMX": "Al Laberinto Secreto de la Vaca",
+        "jaJP": "秘密のモーモー迷宮へ",
+        "ptBR": "Para o Labirinto Secreto da Vaca",
+        "ruRU": "В секретный коровий лабиринт",
+        "zhCN": "前往神秘的奶牛迷宫"
+    },
+    {
+        "id": 54002,
+        "Key": "EnteringTheMooMooMaze",
+        "enUS": "Entering The Secret Cow Maze",
+        "zhTW": "正在進入秘密乳牛迷宮",
+        "deDE": "Betritt das Geheime Kuhlabyrinth",
+        "esES": "Entrando en el Laberinto Secreto de las Vacas",
+        "frFR": "Entrée dans le labyrinthe secret des vaches",
+        "itIT": "Ingresso nel Labirinto Bovino Segreto",
+        "koKR": "음메음메 미로에 진입",
+        "plPL": "Wkraczanie do Sekretnego krowiego labiryntu",
+        "esMX": "Entrando en el Laberinto Secreto de la Vaca",
+        "jaJP": "秘密のモーモー迷宮に進入",
+        "ptBR": "Entrando no Labirinto Secreto da Vaca",
+        "ruRU": "Вход в секретный коровий лабиринт",
+        "zhCN": "正在进入神秘的奶牛迷宫"
+    } 
 ]
