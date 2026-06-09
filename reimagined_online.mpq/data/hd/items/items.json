@@ -801,5 +801,6 @@
   { "drm": { "asset": "potion/dye_remover" } },
   { "1gc": { "asset": "storage/gem_cluster" } },
   { "oor": { "asset": "powerorbs/orbofrenewal" } },
-  { "1or": { "asset": "powerorbs/orbofrenewal_stacked" } }
+  { "1or": { "asset": "powerorbs/orbofrenewal_stacked" } },
+  { "cri": { "asset": "ring/ring" } },
 ]
